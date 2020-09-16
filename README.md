@@ -6,8 +6,8 @@
 
 # Config Root Folder
 
-1 - open file: server.js
-2 - Change folder path (var rootFolder = './src';) or paste your html files on ./src
+ -  1: open file: server.js 
+ -  2: Change folder path (var rootFolder = './src';) or paste your html files on ./src
 
 # Run
 
