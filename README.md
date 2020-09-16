@@ -12,3 +12,8 @@
 # Run
 
 -- npm run server
+
+
+# Access
+
+-- http://localhost:8888
