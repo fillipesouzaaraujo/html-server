@@ -1,7 +1,8 @@
 var connect = require('connect');
 var serveStatic = require('serve-static');
-var rootFolder = '/Users/devjupiter/Desktop/Requisitos Server/src';
+// Paste your HTML folder
+var rootFolder = './src';
 
 connect()
   .use(serveStatic(rootFolder, { 'index': ['index.html', 'index.htm'] }))
-  .listen(8888, () => console.log('Server running on 8888...'));
+  .listen(8888, () => console.log('Server running on http://localhost:8888'));
